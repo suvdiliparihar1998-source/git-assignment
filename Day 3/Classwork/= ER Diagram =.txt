@@ -1,0 +1,48 @@
+ <= ER Diagram =>
+
+|----------------=---|    
+|        USERS       |
+|--------------------|
+| User_id            |
+| Email              |
+| Password(hardcoded)|
+| Role               |
+|--------------------|
+         |
+         | 
+|--------------------|
+|      STUDENTS      |
+|--------------------|
+| Student name       |  
+| Reg_No(PK)         |
+| User_id(FK)        |
+| Mobile_No          |
+| Email              |            
+|Profile_Pic         |
+|--------------------|
+         | 
+         | 
+|--------------------|
+|     COURSES        |
+|--------------------|
+|Course_id(PK)       |
+|Course_name         |
+|Title               |
+|Description         |
+|Start_date          |  
+|End_date            |
+|Fees                |
+|Video_expire_days   |
+|--------------------|
+          |
+          | 
+|--------------------|
+|     VIDEOS         |
+|--------------------|
+|Video_id(PK)        |
+|Course_id(FK)       |
+|Title               |
+|Description         |
+|Video_URL           |
+|addedd_at           |
+|--------------------| 
