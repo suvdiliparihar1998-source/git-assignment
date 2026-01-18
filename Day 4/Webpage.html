@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Assignment Demo</title>
+</head>
+
+<body>
+
+    <!-- Headings -->
+    <h1>HTML Assignment Demo</h1>
+    <h2>Using All Heading Tags</h2>
+    <h3>Section Heading</h3>
+    <h4>Sub Section</h4>
+    <h5>Minor Heading</h5>
+    <h6>Smallest Heading</h6>
+
+    <hr>
+
+    <!-- Image -->
+    <h2>Institute Logo</h2>
+    <img src="https://www.sunbeam.edu.in/assets/images/sunbeam-logo.png"
+         alt="Sunbeam Logo"
+         width="200"
+         height="200">
+
+    <hr>
+
+    <!-- Table -->
+    <h2>Student Information Table</h2>
+    <table border="1" cellpadding="10" align="center">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Details</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Sweety</td>
+            <td>Email</td>
+            <td>stw@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>9999999999</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Form -->
+    <h2>Sunbeam Registration Form</h2>
+    <form>
+
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        <label>Select Course:</label><br>
+        <select name="course">
+            <option value="">--Select--</option>
+            <option value="dac">PG-DAC</option>
+            <option value="dbda">PG-DBDA</option>
+            <option value="ditiss">PG-DITISS</option>
+        </select>
+        <br><br>
+
+        <label>Address:</label><br>
+        <textarea rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <hr>
+
+    <!-- Iframe -->
+    <h2>Sunbeam Introduction Video</h2>
+    <iframe 
+        width="560" 
+        height="315"
+        src="https://www.youtube.com/embed/02q9aAvv1NI"
+        title="Sunbeam Introdution Videor"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
