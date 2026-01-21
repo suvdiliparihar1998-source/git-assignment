@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  margin-top: 60px;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+    background-color: darkgray;
+}
