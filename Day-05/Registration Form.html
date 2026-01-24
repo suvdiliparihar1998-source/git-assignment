@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sunbeam Registration Form</title>
+</head>
+<body>
+
+    <h2>Sunbeam Registration Form</h2>
+
+    <form>
+
+        <!-- Name -->
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <!-- Birth Date -->
+        <label>Birth Date:</label>
+        <input type="date" name="dob"><br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <!-- Password -->
+        <label>Password:</label>
+        <input type="password" name="password"><br><br>
+
+        <!-- Address -->
+        <label>Address:</label><br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+      
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        <!-- Upload Photo -->
+        <label>Upload Photo:</label>
+        <input type="file"><br><br>
+
+        <!-- Course -->
+        <label>Select your Course:</label>
+        <select>
+            <option>Select Course</option>
+            <option>DAC</option>
+            <option>DMC</option>
+            <option>DBDA</option>
+        </select><br><br>
+
+        <!-- Skill Set -->
+        <label>Skill Set:</label><br>
+        <input type="checkbox"> Java<br>
+        <input type="checkbox"> CPP<br>
+        <input type="checkbox"> OS<br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Register" onclick="return showMessage()">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
+<script>
+  function showMessage() {
+  alert("Form Submitted Successfully!");
+      return false;
+}
+</script>

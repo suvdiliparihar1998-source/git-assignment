@@ -1,0 +1,9 @@
+{
+  "name": "express-mysql",
+  "version": "1.0.0",
+  "description": "MySQL connection module",
+  "main": "db.js",
+  "dependencies": {
+    "mysql2": "^3.6.5"
+  }
+}

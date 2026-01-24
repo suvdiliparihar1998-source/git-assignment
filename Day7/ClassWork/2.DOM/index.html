@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Demo</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+
+        .container {
+            border: 3px solid blue;
+            padding: 20px;
+            width: 500px;
+            margin: auto;
+        }
+
+        .box {
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        input {
+            padding: 8px;
+            width: 80%;
+            margin: 10px 0;
+            border: 2px solid orange;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            border: 2px solid green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color:red;">DOM</h1>
+
+    <div class="container">
+
+        <div class="box" id="welcomeText">
+            Welcome, To the DOM Demo
+        </div>
+
+        <div class="box" id="changeText">
+            This text will be change in future with help of JS
+        </div>
+
+        <input type="text" id="nameInput" placeholder="Enter Your Name">
+
+        <br>
+
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="changeColor()">Change Color</button>
+        <button onclick="showText()">Show Text</button>
+
+        <div class="box" id="output"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
